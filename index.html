@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaulGsj-Dev | Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SaulGsj-Dev</h1>
+        <p>GitHub: <img src="img/Github.png" alt="zap" style="width: 25px;"><a href="https://github.com/Saulgsj-dev">SaulGsj-Dev</a></p>
+        <p>Contato: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=saulgsjdev@gmail.com" target="_blank">saulgsjdev@gmail.com</a></p>
+        <p>Contato: <img src="img/zap.png" alt="zap" style="width: 25px;"><a href="mailto:saulgsjdev@gmail.com">021 990634671</a></p>
+        <button id="modo-escuro">🌙 Modo Escuro</button>
+    </header>
+
+    <!-- Foto na  parte superior direita -->
+    <img src="img/eu.png" alt="Minha Foto" class="foto-perfil">
+
+    <main>
+        <section class="left">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um desenvolvedor apaixonado por tecnologia e programação.</p>
+            <button class="buto" onclick="window.location.href='#projetos'">Meus Projetos</button>
+        </section>
+
+        <section class="center">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Frontend, Backend</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Firebase</li>
+                <li>Desenvolvimento Web Responsivo</li>
+            </ul>
+        </section>
+
+        <section class="right">
+            <h2>Experiência</h2>
+            <p>Sou um desenvolvedor versátil com experiência em várias áreas do desenvolvimento web, incluindo Frontend e Backend. Tenho habilidades sólidas em HTML, CSS e PHP, criando páginas web modernas e responsivas, com designs atraentes e otimização para dispositivos móveis. Minha experiência com APIs permite integrar funcionalidades externas de maneira eficiente, oferecendo uma experiência de usuário rica e dinâmica.
+
+                No Frontend, sou capaz de construir interfaces interativas e modernas usando HTML5, CSS3 e JavaScript, implementando animações, transições suaves e responsividade para diferentes tamanhos de tela. No Backend, trabalho com PHP para criar sistemas robustos e escaláveis, utilizando banco de dados para gerenciar dados de maneira eficaz e segura.
+                
+                Além disso, sou proficiente em Python, o que me permite desenvolver scripts e aplicações para automatização de tarefas, integração de APIs, e até mesmo criar sistemas mais complexos quando necessário.
+                
+                Em projetos que envolvem sistemas de login, sou capaz de integrar autenticação com Firebase ou outros métodos, garantindo segurança e facilidade de acesso para os usuários. Ao longo de minha carreira, desenvolvi diversos sites modernos com funcionalidades como login de usuário, integração com bancos de dados e APIs externas, sempre focando em performance e experiência de usuário.
+                
+                Essa descrição abrange uma gama de habilidades técnicas e a experiência com sistemas completos, incluindo tanto o frontend quanto o backend, além de integrar banco de dados e APIs.</p>
+        </section>
+    </main>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-container">
+            <a href="https://sauldevsistemadeloginsimplres.netlify.app/" class="projeto">
+                <div class="projeto-conteudo">
+                    <h3>Sistema de Login</h3>
+                    <img src="img/login.png" alt="Sistema de Login">
+                    <p class="descricao">Um sistema simples de login com autenticação.</p>
+                </div>
+            </a>
+            
+            <a href="https://removerfundogratis.netlify.app/" class="projeto">
+                <div class="projeto-conteudo">
+                    <h3>Remover Fundo</h3>
+                    <img src="img/remove.png" alt="Remover Fundo">
+                    <p class="descricao">Remova o fundo de imagens com API.</p>
+                </div>
+            </a>
+
+            <a href="https://simulador-de-compras.netlify.app/" class="projeto">
+                <div class="projeto-conteudo">
+                    <h3>Simula compra</h3>
+                    <img src="img/simcom.png" alt="simulador de compra">
+                    <p class="descricao">Simula compras importando para o carrinho</p>
+                </div>
+            </a>
+        </div>
+  
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
